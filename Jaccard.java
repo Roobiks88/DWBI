@@ -21,7 +21,7 @@ public class Jaccard {
 	 * 
 	 * Part 1: Array gets filled with each word, named tokens.
 	 * Part 2: Calculation of Jaccard Distance.
-	 * Part 3: Writing o file
+	 * Part 3: Writing of file
 	 * 
 	 * Important: If you use large files, please watch out for your heap and garbage collector!
 	 * Add following lines to yout VM arguments:  
