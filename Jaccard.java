@@ -55,7 +55,7 @@ public class Jaccard {
 		
 		// variables for dimension of array
 		// x represents the length of lines, please make sure to add a wide range.
-		// y represents the numbers of line, plaese change according to your text file.
+		// y represents the width of each line, please change according to your text file.
 		int x = 200;
 		int y = 4;
 		
@@ -98,11 +98,11 @@ public class Jaccard {
 	
 		
 		//2
-		// calculate distance (1- jaccard similarity)
+		// calculate distance (1- Jaccard Similarity)
 		// compare each line to all other lines
 		
 		 
-		// multidimensional array for jaccard distance
+		// multidimensional array for Jaccard Distance
 		BigDecimal[][] arrd = new BigDecimal[y][x];
 		
 		// write first row
@@ -157,7 +157,7 @@ public class Jaccard {
 	    	secondArray[i]=arr[q][i];
 	    }
 	     
-	    // use Union and Intersect for calculation of Jaccard distance
+	    // use Union and Intersect for calculation of Jaccard Distance
 	    
 	    HashSet<String> set = new HashSet<>(); 
 	    set.addAll(Arrays.asList(firstArray));
@@ -181,8 +181,8 @@ public class Jaccard {
 	     one = new BigDecimal(1);
 	     //System.out.println(one.subtract(bg3));
 	    
-	     // add Jaccard distance to array
-	     // if you would like to chnage to Jaccard Similarity,
+	     // add Jaccard Distance to array
+	     // if you would like to change to Jaccard Similarity,
 	     // uncomment next line and comment second next line
 	     //  arrd[p][q]=bg3;
 	     arrd[p][q]=one.subtract(bg3);
