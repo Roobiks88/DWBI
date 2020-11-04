@@ -55,7 +55,7 @@ public class Jaccard {
 		
 		// variables for dimension of array
 		// x represents the length of lines, please make sure to add a wide range.
-		// y represents the width of each line, please change according to your text file.
+		// y represents the amount of lines, please change according to your text file.
 		int x = 200;
 		int y = 4;
 		
