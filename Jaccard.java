@@ -11,7 +11,7 @@ public class Jaccard {
 
 	/*
 	 * This code calculates the Jaccard Distance.
-	 * Follow this link for a simple explanataion on how to calculate the Jaccard Distance:
+	 * Follow this link for a simple explanation on how to calculate the Jaccard Distance:
 	 * https://www.statisticshowto.com/jaccard-index/
 	 * 
 	 * The results will be saved into a csv file.
